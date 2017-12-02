@@ -1,0 +1,1 @@
+arm-none-eabi-objcopy --change-addresses 0x10001000 -B arm --rename-section .data=.text -I binary -O elf32-littlearm xmc1100_default.bin xmc1100_default.elf
